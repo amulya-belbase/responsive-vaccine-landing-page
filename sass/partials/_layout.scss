@@ -1,0 +1,500 @@
+* {
+  box-sizing: border-box;
+  transition: ease all .5s;
+}
+body {
+  margin: 0;
+}
+
+// FOR THE FIRST PAGE PART
+
+.container {
+  padding: 40px 70px 0px 70px;
+
+  .header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .logo_image {
+    }
+    .menu_response {
+      display: none;
+    }
+    .nav_bar {
+      display: flex;
+      gap: 25px;
+      .home_nav_bar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+    .nav_button {
+      padding: 20px 25px 20px 25px;
+    }
+    .nav_button:hover {
+      cursor: pointer;
+    }
+  }
+
+  .hero {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    gap: 75px;
+    .left_hero {
+      .hero_desc {
+        margin-bottom: 50px;
+        .upper_desc {
+        }
+        .middle_desc {
+          padding: 40px 50px 50px 0px;
+          // width: 70%;
+        }
+        .lower_desc {
+          // width: 65%;
+        }
+      }
+      .hero_btns {
+        display: flex;
+        gap: 20px;
+        .left_btn {
+          button {
+            padding: 20px 25px 20px 25px;
+          }
+        }
+        .right_btn {
+          button {
+            padding: 20px 25px 20px 25px;
+          }
+        }
+      }
+    }
+    .right_hero {
+      .parent_pic {
+        padding: 0 40px 0 50px;
+        position: relative;
+        .child_left {
+          position: absolute;
+          left: 0;
+          top: 235px;
+        }
+        .child_right {
+          position: absolute;
+          right: 0;
+          top: 235px;
+        }
+        .child_bottom {
+          display: flex;
+          align-items: center;
+          padding: 20px 30px 20px 20px;
+          gap: 20px;
+          width: 375px;
+          position: absolute;
+          top: 520px;
+          left: 0;
+          .doc_group {
+            display: flex;
+            .doc_info {
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .article {
+    width: 100%;
+    .upper_article {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      margin-bottom: 20px;
+    }
+    .lower_article {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 55px 40px 45px 40px;
+      .article_details {
+        display: flex;
+        justify-content: space-around;
+        gap: 50px;
+        width: 100%;
+        .individual_article {
+          display: flex;
+          align-items: center;
+          gap: 20px;
+          .upper_article_info {
+          }
+          .lower_article_info {
+          }
+        }
+        .article_submit {
+          button {
+            padding: 20px 25px 20px 25px;
+          }
+        }
+      }
+    }
+  }
+}
+
+// FOR THE FOOTER BELOW  THE FIRST PAGE
+
+.container_footer {
+  width: 100%;
+  padding: 20px 70px 10px 70px;
+  .footer_logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+  }
+}
+
+// CONTAINER BELOW BANNER FOOTER
+
+.details_container {
+  padding: 60px 70px 80px 70px;
+  .details_elements {
+    .details_form {
+      padding-bottom: 30px;
+      .details_form_title {
+        padding: 35px 0 35px 90px;
+      }
+      .details_form_fill {
+        .details_form_fill_elements {
+          display: flex;
+          align-items: center;
+          justify-content: space-evenly;
+          padding: 35px 90px;
+          // gap: 20px;
+          input {
+            padding: 20px 0 20px 20px;
+            width: 450px;
+            height: 70px;
+          }
+          button {
+            padding: 20px 40px 20px 40px;
+            width: 175px;
+            height: 70px;
+            align-items: center;
+          }
+        }
+        .details_form_foot {
+          margin: 0px 90px 0 90px;
+          padding: 20px 175px;
+          text-align: center;
+          align-items: center;
+        }
+      }
+    }
+
+    .details_info {
+      margin-top: 60px;
+      .details_info_up {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 60px;
+        margin-bottom: 40px;
+        .details_info_left {
+          // width: 503.95px;
+          width: 50%;
+        }
+        .details_info_right {
+          width: 50%;
+          // width: 536.88px;
+        }
+      }
+      .details_cards {
+        display: flex;
+        align-items: flex-end;
+        gap: 75px;
+        .details_cards_big {
+          width: 450px;
+          padding: 40px 55px 75px 40px;
+          .big_card_pic {
+            padding-bottom: 40px;
+          }
+          .big_card_name {
+            padding-bottom: 30px;
+          }
+          .big_card_desc {
+            padding-bottom: 40px;
+          }
+          .big_card_link {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+          }
+        }
+        .details_cards_small {
+          display: flex;
+          justify-content: space-between;
+          gap: 75px;
+          .details_cards_small_card {
+            padding: 40px 50px 60px 40px;
+            width: 350px;
+            .small_card_desc {
+              padding-top: 40px;
+              padding-bottom: 50px;
+            }
+            .small_card_link {
+              display: flex;
+              align-items: center;
+              gap: 5px;
+            }
+            #second_link {
+              padding-top: 30px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// VACCINE REGISTRATION PAGE
+.letsee {
+  background-image: url("./assets/img/unsplash_Y4MKctPwIrw.png");
+  .form_article {
+    padding: 40px 70px 30px 70px;
+    .form_article_elements {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      .form_article_up {
+        padding-bottom: 40px;
+        display: flex;
+        align-items: flex-start;
+      }
+
+      .form_article_mid {
+        padding-top: 40px;
+        padding-right: 5px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        .form_picture_back {
+          position: relative;
+          .form_picture_front {
+            position: absolute;
+            left: 0;
+            top: 70px;
+          }
+          .form_picture_front_word {
+            position: absolute;
+            width: 116px;
+            top: 30px;
+            left: 130px;
+          }
+          .form_picture_front_view {
+            position: absolute;
+            left: 90px;
+            top: 440px;
+          }
+          .form_picture_front_virus {
+            position: absolute;
+            left: -20px;
+            top: -25px;
+          }
+        }
+      }
+      .form_article_down {
+        display: flex;
+        flex-direction: column;
+        width: 650px;
+        label {
+          padding-bottom: 20px;
+        }
+        input {
+          margin-bottom: 40px;
+          padding: 20px 0 20px 30px;
+        }
+        p {
+          margin: 0;
+          padding-bottom: 20px;
+        }
+        .phone_field {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-bottom: 40px;
+          .phone_input {
+            position: relative;
+            img {
+              position: absolute;
+              top: 15px;
+              left: 30px;
+            }
+            #phone {
+              padding-left: 135px;
+              margin-bottom: 0px;
+            }
+          }
+        }
+        button {
+          padding: 20px 70px;
+        }
+        .form_foot {
+          display: flex;
+          margin-top: 40px;
+          justify-content: center;
+          gap: 45px;
+          p {
+            padding: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+// SYMPTOMS CONTAINER
+.symptoms_container {
+  .symptoms_upper_text {
+    padding: 67px 460px 40px 460px;
+    p {
+      margin: 0;
+      margin-bottom: 20px;
+    }
+    .symptoms_span {
+    }
+  }
+  .symptoms_lower_text {
+    padding: 0px 245px 180px 240px;
+  }
+  .symptoms_man_img {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    .symptoms_virus_images {
+      position: absolute;
+      width: 100%;
+      padding-top: 20px;
+      .symptoms_box {
+        position: relative;
+        padding: 23px 61px 23px 127px;
+        img {
+          position: absolute;
+          top: -15px;
+          left: -15px;
+        }
+      }
+      .upper_symptoms_virus_images {
+        display: flex;
+        padding-bottom: 83px;
+        justify-content: space-between;
+        margin: 0 190px 0 280px;
+      }
+      .mid_symptoms_virus_images {
+        display: flex;
+        padding-bottom: 83px;
+        justify-content: space-between;
+        margin: 0 150px 0 170px;
+      }
+      .lower_symptoms_virus_images {
+        display: flex;
+        padding-bottom: 0;
+        justify-content: space-between;
+        margin: 0 150px 0 100px;
+      }
+    }
+  }
+}
+
+
+// TESTIMONIALS CONTAINER
+.testimonials {
+  position: relative;
+  p {
+    margin: 0;
+  }
+  .testimonials_upper {
+    padding: 57px 405px 0 405px;
+    margin-bottom: 40px;
+    #feedback {
+      margin-bottom: 20px;
+    }
+  }
+  .testimonials_desc {
+    padding: 0 245px 100px 245px;
+  }
+  .back_image{
+    position: absolute;
+    display: flex;
+    gap: 150px;
+    top: 205px;
+    left: 128px;
+    }
+  
+  .testimonial_cards {
+    display: flex;
+    margin: 0 70px 0 70px;
+    justify-content: space-around;
+    padding-bottom: 321px;
+    gap: 100px;
+    p {
+      margin: 0;
+    }
+    .individual_testimonial_card {
+      padding: 30px 30px 40px 30px;
+      .patient_info {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        margin-bottom: 40px;
+      }
+    }
+  }
+}
+
+
+// FOOTER 
+.footer{
+  position: relative;
+  .upperdiv{
+    padding: 70px 241px 107px 241px;
+    // margin: 0px 212px 0px 212px;
+    text-align: center;
+    position: absolute;
+    top: -198px;
+    left: 212px;
+    p{
+      margin: 0;
+    }
+    .upper_top_quote{
+      margin-bottom: 20px;
+    }
+    .upper_top_desc{
+      margin-bottom: 40px;
+    }
+    .upper_bottom{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      input{
+        padding: 29px 0 29px 40px;
+        width: 100%;
+      }
+      .footer_send{
+        display: flex;
+        align-items: center;
+        padding: 17px 30px 17px 30px;
+      }
+    }
+  }
+  .lowerdiv{
+    display: flex;
+    justify-content: space-between;
+    padding: 327px 79px 123px 67px;
+    align-items: center;
+    .footer_nav_bar {
+      display: flex;
+      gap: 25px;
+    }
+  }
+}

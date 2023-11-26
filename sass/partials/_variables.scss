@@ -1,0 +1,506 @@
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque&family=Libre+Baskerville&family=Lobster+Two&family=Montserrat&family=Plus+Jakarta+Sans&family=Poppins:wght@500&family=Roboto&display=swap");
+
+* {
+  font-family: "Montserrat";
+  font-style: normal;
+}
+
+.container {
+  background-color: rgba(11, 21, 60, 1);
+  .header {
+    .nav_bar {
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 29px;
+      color: rgba(255, 255, 255, 0.5);
+      .home_nav_bar {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        color: #ffffff;
+      }
+    }
+    .nav_button {
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 29px;
+      color: #17c2ec;
+      background: rgba(196, 196, 196, 0.1);
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 20px;
+    }
+  }
+
+  .hero {
+    color: white;
+    .left_hero {
+      .hero_desc {
+        .upper_desc {
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 29px;
+          color: #17c2ec;
+        }
+        .middle_desc {
+          font-weight: 800;
+          font-size: 48px;
+          line-height: 59px;
+          color: #ffffff;
+          #site_name {
+            color: rgba(23, 194, 236, 1);
+          }
+        }
+        .lower_desc {
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 29px;
+          color: rgba(255, 255, 255, 0.7);
+        }
+      }
+      .hero_btns {
+        .left_btn {
+          button {
+            background: #17c2ec;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 20px;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 29px;
+            border: none;
+            color: #ffffff;
+          }
+        }
+        .right_btn {
+          button {
+            background: rgba(196, 196, 196, 0.1);
+            border: 2px solid #17c2ec;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 20px;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 29px;
+            color: #ffffff;
+          }
+        }
+      }
+    }
+    .right_hero {
+      .parent_pic {
+        .child_bottom {
+          background: rgba(196, 196, 196, 0.2);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+            0px 4px 4px rgba(0, 0, 0, 0.1);
+          border-radius: 20px;
+        }
+      }
+    }
+  }
+
+  .article {
+    .upper_article {
+      .article_writing {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        color: #ffffff;
+        background-color: transparent;
+      }
+    }
+    .lower_article {
+      background: rgba(196, 196, 196, 0.05);
+      border-radius: 20px 20px 0px 0px;
+      .article_details {
+        .individual_article {
+          .upper_article_info {
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 29px;
+            color: rgba(255, 255, 255, 0.5);
+          }
+          .lower_article_info {
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 29px;
+            color: #ffffff;
+          }
+        }
+      }
+      .article_submit {
+        button {
+          background: #17c2ec;
+          border-radius: 20px;
+          border: none;
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 29px;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}
+
+.container_footer {
+  // background: #b7b7a4;
+  background: #949485;
+  .footer_logos {
+    display: flex;
+  }
+}
+
+.details_container {
+  background-color: rgba(11, 21, 60, 1);
+  color: white;
+  .details_elements {
+    .details_form {
+      border-radius: 8px;
+      background-color: rgba(196, 196, 196, 0.1);
+      .details_form_title {
+        background: rgba(196, 196, 196, 0.05);
+        border-radius: 20px 20px 0px 0px;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        color: #ffffff;
+      }
+      .details_form_fill {
+        .details_form_fill_elements {
+          input {
+            background: rgba(196, 196, 196, 0.1);
+            border-radius: 20px;
+            border: none;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 29px;
+            color: #ffffff;
+            border: 3px solid rgba(196, 196, 196, 0.15);
+            input::placeholder {
+              color: rgba(255, 255, 255, 0.5);
+            }
+          }
+          #input1::placeholder {
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 29px;
+            color: #ffffff;
+          }
+          #input1 {
+            border: 3px solid rgba(23, 194, 236, 1);
+          }
+          button {
+            background: rgba(196, 196, 196, 0.1);
+            border: 3px solid #17c2ec;
+            border-radius: 20px;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 29px;
+            color: #17c2ec;
+          }
+        }
+        .details_form_foot {
+          background-color: rgba(196, 196, 196, 0.05);
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 29px;
+          color: #17c2ec;
+          border-radius: 20px;
+        }
+      }
+    }
+    .details_info {
+      .details_info_up {
+        .details_info_left {
+          font-weight: 700;
+          font-size: 47.9002px;
+          line-height: 58px;
+          color: #ffffff;
+        }
+        .details_info_right {
+          font-weight: 400;
+          font-size: 19.9584px;
+          line-height: 24px;
+          color: rgba(255, 255, 255, 0.5);
+        }
+      }
+    }
+    .details_cards {
+      .details_cards_big {
+        background-color: rgba(196, 196, 196, 0.2);
+        border-radius: 49.9px 149.69px 49.9px 49.9px;
+
+        .details_cards_big_card {
+          .big_card_name {
+            font-weight: 700;
+            font-size: 23.9501px;
+            line-height: 29px;
+            color: #17c2ec;
+          }
+          .big_card_desc {
+            font-weight: 500;
+            font-size: 17.9626px;
+            line-height: 22px;
+            color: #ffffff;
+          }
+          .big_card_link {
+            font-weight: 700;
+            font-size: 17.9626px;
+            line-height: 22px;
+            color: #17c2ec;
+          }
+        }
+      }
+      .details_cards_small {
+        .details_cards_small_card {
+          color: white;
+          border-radius: 50px;
+          border: 3px solid rgba(255, 255, 255, 0.5);
+          .small_card_desc {
+            font-weight: 700;
+            font-size: 23.9501px;
+            line-height: 29px;
+            color: #ffffff;
+          }
+          .small_card_link {
+            font-weight: 700;
+            font-size: 17.9626px;
+            line-height: 22px;
+            color: rgba(255, 255, 255, 0.5);
+          }
+        }
+      }
+    }
+  }
+}
+
+.letsee {
+  background-color: #dbd9cf;
+  .form_article {
+    .form_article_elements {
+      .form_article_up {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 59px;
+        text-align: center;
+        color: #000000;
+      }
+      .form_article_mid {
+        .form_picture_back {
+          .form_picture_front_word {
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 29px;
+            text-align: center;
+            color: #ffffff;
+          }
+        }
+      }
+      .form_article_down {
+        label {
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 29px;
+          color: #000000;
+        }
+        input {
+          border-radius: 20px;
+          border: none;
+          background: rgba(11, 21, 60, 0.15);
+          font-weight: 500;
+          font-size: 24px;
+          line-height: 29px;
+          color: rgba(0, 0, 0, 0.25);
+        }
+        input::placeholder {
+          font-weight: 500;
+          font-size: 24px;
+          line-height: 29px;
+          color: rgba(0, 0, 0, 0.25);
+        }
+        p {
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 24px;
+          color: rgba(0, 0, 0, 0.5);
+        }
+        button {
+          border: none;
+          background: #17c2ec;
+          border-radius: 20px;
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 29px;
+          color: #ffffff;
+        }
+        .form_foot {
+          margin-top: 20px;
+          p {
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 24px;
+            color: rgba(0, 0, 0, 0.5);
+          }
+          .check {
+            font-weight: 700;
+            color: #17c2ec;
+          }
+        }
+      }
+    }
+  }
+}
+
+.symptoms_container {
+  background-color: rgba(11, 21, 60, 1);
+  .symptoms_upper_text {
+    p {
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 29px;
+      text-align: center;
+      color: #ffffff;
+    }
+    .symptoms_span {
+      font-weight: 800;
+      font-size: 48px;
+      line-height: 59px;
+      color: white;
+      text-align: center;
+      #first {
+        color: #17c2ec;
+      }
+    }
+  }
+  .symptoms_lower_text {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .symptoms_man_img {
+    .symptoms_virus_images {
+      color: #17c2ec;
+      text-align: center;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 24px;
+      .symptoms_box {
+        background-color: rgba(196, 196, 196, 0.2);
+        border-radius: 10px;
+      }
+    }
+  }
+}
+
+.testimonials {
+  background-color: #dbd9cf;
+  background-image: url("./assets/img/unsplash_Y4MKctPwIrw.png");
+  .testimonials_upper {
+    text-align: center;
+    #feedback {
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 29px;
+      color: #17c2ec;
+    }
+    #patients_think {
+      font-weight: 800;
+      font-size: 48px;
+      line-height: 59px;
+    }
+  }
+  .testimonials_desc {
+    text-align: center;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  .testimonial_cards {
+    .patient_name {
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 29px;
+    }
+    .patient_add {
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 17px;
+      color: rgba(0, 0, 0, 0.5);
+    }
+    .patient_comment {
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 22px;
+      text-align: center;
+      color: rgba(0, 0, 0, 0.6);
+      #covid {
+        color: rgba(23, 194, 236, 1);
+      }
+    }
+    .individual_testimonial_card {
+      background-color: rgba(196, 196, 196, 0.5);
+      border-radius: 20px;
+    }
+    #blue_card {
+      background-color: rgba(23, 194, 236, 1);
+      color: white;
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+      .patient_add,
+      .patient_comment {
+        color: rgba(255, 255, 255, 0.75);
+      }
+    }
+  }
+}
+
+.footer {
+  background-color: rgba(11, 21, 60, 1);
+  color: white;
+  .footer_nav_bar {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: rgba(255, 255, 255, 0.5);
+    .home_nav_bar {
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 29px;
+      color: #ffffff;
+    }
+  }
+  .upperdiv {
+    background-color: rgba(23, 194, 236, 1);
+    color: white;
+    border-radius: 50px;
+    .upper_top_quote {
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 59px;
+    }
+    .upper_top_desc {
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 29px;
+    }
+    .upper_bottom {
+      input {
+        border: none;
+        border-radius: 30px 0px 0px 30px;
+        color: black;
+      }
+      input::placeholder {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        color: rgba(0, 0, 0, 0.25);
+      }
+      .footer_send {
+        background: #0b153c;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+        border-radius: 0px 30px 30px 0px;
+      }
+    }
+  }
+}

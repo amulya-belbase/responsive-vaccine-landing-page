@@ -1,0 +1,430 @@
+/* This is for tablets (width < 768px) */
+@media (max-width: 768px) {
+  .container {
+    padding: 50px 50px 0px 50px;
+
+    .header {
+      .logo_image {
+        width: 200px;
+        height: 35px;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .menu_response {
+        display: block !important;
+      }
+      .nav_bar {
+        display: none !important;
+      }
+      .nav_button {
+        display: none !important;
+      }
+    }
+
+    .hero {
+      display: block;
+      margin-top: 30px;
+      .left_hero {
+        margin-bottom: 55px;
+        .hero_desc {
+          margin-bottom: 40px;
+          .upper_desc {
+            font-family: "Montserrat";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 22px;
+            color: #17c2ec;
+          }
+          .middle_desc {
+            padding: 40px 0 40px 0px;
+            font-family: "Montserrat";
+            font-style: normal;
+            font-weight: 800;
+            font-size: 36px;
+            line-height: 44px;
+            color: #ffffff;
+          }
+          .lower_desc {
+            font-family: "Montserrat";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 24px;
+            color: rgba(255, 255, 255, 0.7);
+          }
+        }
+      }
+      .right_hero {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .parent_pic {
+          padding: 0 75px 0 75px;
+          .child_left {
+            top: 235px;
+            left: 20px;
+          }
+          .child_right {
+            top: 235px;
+            right: 30px;
+          }
+          .child_bottom {
+            top: 520px;
+            left: 20px;
+          }
+        }
+      }
+    }
+
+    .article {
+      margin-top: 80px;
+      .upper_article {
+        margin-bottom: 30px;
+      }
+      .lower_article {
+        padding: 35px 35px 45px 35px;
+        .article_details {
+          flex-wrap: wrap;
+          gap: 13px;
+          .article_submit {
+            button {
+              width: 280px;
+              height: 65px;
+              background: #17c2ec;
+              border-radius: 20px;
+              font-size: 20px;
+              line-height: 24px;
+              color: #ffffff;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .container_footer {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px 50px 10px 50px;
+    .footer_logos {
+      width: 100%;
+      height: 60px;
+      gap: 25px;
+      justify-content: center;
+
+      #moderna {
+        width: 148px;
+        height: 35px;
+      }
+      #astra {
+        width: 148px;
+        height: 42px;
+      }
+      #pfizer {
+        width: 148px;
+        height: 60px;
+      }
+      #sino {
+        width: 148px;
+        height: 30px;
+      }
+    }
+  }
+
+  .details_container {
+    padding: 55px 50px 45px 50px;
+    .details_elements {
+      .details_form {
+        padding-bottom: 45px;
+        .details_form_title {
+          display: flex;
+          justify-content: center;
+          padding: 20px 100px 15px 100px;
+          font-weight: 700;
+          font-size: 20px;
+          line-height: 24px;
+          color: #ffffff;
+        }
+        .details_form_fill {
+          .details_form_fill_elements {
+            display: block;
+            padding: 40px 110px 50px 110px;
+            input {
+              width: 100%;
+              margin-bottom: 20px;
+              padding-left: 25px;
+              font-weight: 500;
+              font-size: 20px;
+              line-height: 24px;
+            }
+            #input::placeholder {
+              color: #ffffff;
+            }
+            input::placeholder {
+              color: rgba(255, 255, 255, 0.5);
+            }
+            button {
+              font-size: 20px;
+              line-height: 24px;
+              padding: 20px 50px 20px 50px;
+            }
+          }
+          .details_form_foot {
+            font-size: 14px;
+            line-height: 17px;
+            padding: 15px 40px 20px 45px;
+            margin: 0px 65px 0px 65px;
+          }
+        }
+      }
+      .details_info {
+        margin-top: 55px;
+        padding-left: 20px;
+        padding-right: 20px;
+        .details_info_up {
+          padding-top: 55px;
+          display: block;
+          .details_info_left {
+            margin-bottom: 40px;
+            font-size: 36px;
+            line-height: 44px;
+            width: 100%;
+          }
+          .details_info_right {
+            width: 100%;
+            word-wrap: break-word;
+            margin-bottom: 50px;
+          }
+        }
+        .details_cards {
+          display: block;
+          .details_cards_big {
+            margin-bottom: 40px;
+            .big_card_pic {
+              width: 100px;
+              height: 100px;
+              padding: 0;
+              margin-bottom: 40px;
+              img {
+                width: 100%;
+                height: 100%;
+              }
+            }
+          }
+          .details_cards_small {
+            gap: 40px;
+            .details_cards_small_card {
+              padding: 40px 40px 30px 40px;
+              .small_card_pic {
+                img {
+                  width: 69px;
+                  height: 69px;
+                }
+              }
+              .small_card_desc {
+                padding-top: 40px;
+                padding-bottom: 20px;
+
+                font-size: 20px;
+                line-height: 24px;
+              }
+              .small_card_link {
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .letsee {
+    .form_article {
+      padding: 40px 60px 50px 60px;
+      .form_article_elements {
+        display: block;
+        position: static;
+        .form_article_up {
+          text-align: left;
+          font-size: 36px;
+          line-height: 44px;
+          padding-bottom: 0;
+        }
+        .form_article_mid {
+          // left: 0;
+          padding-left: 20px;
+          padding-top: 65px;
+          // padding-top: 0;
+          position: relative;
+        }
+        .form_article_down {
+          width: 100%;
+          margin-top: 70px;
+          label {
+            font-size: 20px;
+            line-height: 24px;
+          }
+          input::placeholder {
+            font-size: 20px;
+            line-height: 24px;
+          }
+          button {
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+
+  .symptoms_container {
+    .symptoms_upper_text {
+      padding: 40px 188px 40px 188px;
+      p {
+        margin-bottom: 10px;
+        font-size: 20px;
+        line-height: 24px;
+      }
+      .symptoms_span {
+        font-size: 36px;
+        line-height: 44px;
+      }
+    }
+    .symptoms_lower_text {
+      padding: 0px 107px 60px 108px;
+      font-size: 18px;
+      line-height: 22px;
+    }
+    .symptoms_man_img {
+      width: 100%;
+      height: 343px;
+      display: flex;
+      justify-content: center;
+      .symptoms_virus_images {
+        padding-top: 30px;
+        .symptoms_box {
+          position: relative;
+          padding: 12px 15px 11px 36px;
+          font-size: 18px;
+          line-height: 22px;
+          img {
+            position: absolute;
+            top: -7px;
+            left: -33px;
+            width: 65px;
+            height: 65px;
+          }
+        }
+        .upper_symptoms_virus_images {
+          margin: 0 50px 0 154px;
+          padding-bottom: 40px;
+        }
+        .mid_symptoms_virus_images {
+          margin: 0 20px 0 80px;
+          padding-bottom: 40px;
+        }
+        .lower_symptoms_virus_images {
+          margin: 0 10px 0 43px;
+        }
+      }
+    }
+  }
+
+  .testimonials {
+    padding-bottom: 130px;
+    .testimonials_upper {
+      padding: 46px 148px 40px 148px;
+      margin-bottom: 0;
+      #feedback {
+        font-size: 20px;
+        line-height: 24px;
+      }
+      #patients_think {
+        font-size: 36px;
+        line-height: 44px;
+      }
+    }
+    .testimonials_desc {
+      padding: 0 94px 60px 94px;
+      font-size: 18px;
+      line-height: 22px;
+    }
+    .back_image {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+      top: 267px;
+      left: 300px;
+      img {
+        width: 173px;
+        height: 283px;
+      }
+    }
+    .testimonial_cards {
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+      gap: 30px;
+      padding: 0 182px 60px 182px;
+
+      .patient_name {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+      }
+
+      .individual_testimonial_card {
+        padding: 30px 33px 44px 34px;
+      }
+    }
+  }
+
+  .footer {
+    .upperdiv {
+      padding: 16px 48px 56px 62px;
+      top: -75px;
+      left: 54px;
+      right: 54px;
+      .upper_top_quote {
+        font-size: 36px;
+        line-height: 44px;
+      }
+      .upper_top_desc {
+        font-size: 20px;
+        line-height: 24px;
+      }
+      .upper_bottom {
+        input {
+          padding: 29px 0px 29px 40px;
+        }
+      }
+    }
+
+    .lowerdiv {
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+      align-items: flex-start;
+      padding: 270px 0px 50px 50px;
+      img {
+        width: 200px;
+      }
+      .footer_nav_bar {
+        font-size: 20px;
+        line-height: 24px;
+        .home_nav_bar {
+          font-size: 20px;
+          line-height: 24px;
+        }
+      }
+      .footer_logo {
+        display: flex;
+        align-items: center;
+        img {
+          width: 139px;
+          height: 31px;
+        }
+      }
+    }
+  }
+}

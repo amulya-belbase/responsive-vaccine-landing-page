@@ -1,0 +1,710 @@
+/* This is for mobile phones (width < 575px) */
+@media (max-width: 375px) {
+  .container {
+    padding: 50px 35px 0px 35px;
+
+    .header {
+      .logo_image {
+        width: 200px;
+        height: 35px;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .menu_response {
+        display: block !important;
+      }
+      .nav_bar {
+        display: none !important;
+      }
+      .nav_button {
+        display: none !important;
+      }
+    }
+
+    .hero {
+      display: block;
+      margin-top: 30px;
+      .left_hero {
+        margin-bottom: 50px;
+        .hero_desc {
+          margin-bottom: 40px;
+          .upper_desc {
+            font-family: "Montserrat";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 12px;
+            line-height: 15px;
+            color: #17c2ec;
+          }
+          .middle_desc {
+            padding: 20px 0 20px 0px;
+            font-family: "Montserrat";
+            font-style: normal;
+            font-weight: 800;
+            font-size: 24px;
+            line-height: 29px;
+            color: #ffffff;
+          }
+          .lower_desc {
+            font-family: "Montserrat";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 17px;
+            color: rgba(255, 255, 255, 0.7);
+          }
+        }
+        .hero_btns {
+          justify-content: center;
+          align-items: center;
+          .left_btn {
+            padding-bottom: 0;
+            button {
+              background: #17c2ec;
+              box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+              border-radius: 20px;
+              font-family: "Montserrat";
+              font-style: normal;
+              font-weight: 700;
+              font-size: 14px;
+              line-height: 17px;
+              color: #ffffff;
+            }
+          }
+          .right_btn {
+            button {
+              background: rgba(196, 196, 196, 0.1);
+              border: 2px solid #17c2ec;
+              box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+              border-radius: 20px;
+              font-family: "Montserrat";
+              font-style: normal;
+              font-weight: 700;
+              font-size: 14px;
+              line-height: 17px;
+              color: #ffffff;
+            }
+          }
+        }
+      }
+
+      .right_hero {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .parent_pic {
+          width: 306px;
+          height: 309px;
+          padding: 0;
+          img {
+            width: 100%;
+            height: 100%;
+          }
+          .child_left {
+            width: 50px;
+            height: 50px;
+            top: 130px;
+            left: -25px;
+            img {
+              height: 100%;
+              width: 100%;
+            }
+          }
+          .child_right {
+            width: 50px;
+            height: 50px;
+            top: 130px;
+            right: -25px;
+            img {
+              height: 100%;
+              width: 100%;
+            }
+          }
+          .child_bottom {
+            gap: 10px;
+            padding: 15px;
+            width: 238px;
+            height: 69px;
+            top: 275px;
+            left: -25px;
+            .doc_group {
+              .doc_images {
+                width: 38.8px;
+                height: 38.8px;
+                img {
+                  width: 100%;
+                  height: 100%;
+                }
+              }
+            }
+            .doc_info {
+              width: 78px;
+              height: 34px;
+              img {
+                width: 100%;
+                height: 100%;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .article {
+      margin-top: 80px;
+      .upper_article {
+        margin-bottom: 20px;
+        .article_img {
+          width: 30px;
+          height: 30px;
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+        .article_writing {
+          margin-bottom: 20px;
+          font-family: "Montserrat";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 14px;
+          line-height: 17px;
+          color: #ffffff;
+          margin: 0;
+        }
+      }
+      .lower_article {
+        padding: 10px 90px 10px 10px;
+        .article_details {
+          display: block;
+          .individual_article {
+            margin-bottom: 15px;
+            .article_pic {
+              height: 30px;
+              width: 30px;
+              img {
+                width: 100%;
+                height: 100%;
+              }
+            }
+            .upper_article_info {
+              font-family: "Montserrat";
+              font-style: normal;
+              font-weight: 600;
+              font-size: 14px;
+              line-height: 17px;
+              color: rgba(255, 255, 255, 0.5);
+            }
+            .lower_article_info {
+              font-family: "Montserrat";
+              font-style: normal;
+              font-weight: 700;
+              font-size: 14px;
+              line-height: 17px;
+              color: #ffffff;
+            }
+          }
+          .article_submit {
+            margin-top: 20px;
+            button {
+              width: 150px;
+              height: 50px;
+              background: #17c2ec;
+              border-radius: 10px;
+              font-size: 14px;
+              line-height: 17px;
+              color: #ffffff;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .container_footer {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 5px 24px;
+    .footer_logos {
+      width: 100%;
+      gap: 10px;
+      display: flex;
+      justify-content: space-between;
+      #moderna {
+        width: 72px;
+        height: 16px;
+      }
+      #astra {
+        width: 72px;
+        height: 20px;
+      }
+      #pfizer {
+        width: 72px;
+        height: 30px;
+      }
+      #sino {
+        width: 72px;
+        height: 15px;
+      }
+    }
+  }
+
+  .details_container {
+    padding: 85px 40px 40px 35px;
+    .details_elements {
+      .details_form {
+        padding-bottom: 30px;
+        .details_form_title {
+          display: flex;
+          justify-content: center;
+          padding: 15px 30px 15px 30px;
+          font-size: 10px;
+          line-height: 12px;
+        }
+        .details_form_fill {
+          .details_form_fill_elements {
+            display: block;
+            padding: 20px 10px 50px 10px;
+            input {
+              width: 100%;
+              margin-bottom: 20px;
+              padding: 15px 0px 15px 20px;
+              font-size: 12px;
+              line-height: 15px;
+            }
+            #input1::placeholder {
+              font-size: 12px;
+              line-height: 15px;
+            }
+            button {
+              padding: 15px 50px 15px 50px;
+              font-size: 14px;
+              line-height: 17px;
+            }
+          }
+          .details_form_foot {
+            padding: 15px 15px 15px 15px;
+            margin: 0px 12px 0px 13px;
+            font-size: 10px;
+            line-height: 12px;
+            text-align: center;
+          }
+        }
+      }
+      .details_info {
+        margin-top: 30px;
+        padding: 0;
+        .details_info_up {
+          padding-top: 40px;
+          display: block;
+          .details_info_left {
+            margin-bottom: 20px;
+            font-size: 24px;
+            line-height: 29px;
+            // width: 65%;
+          }
+          .details_info_right {
+            // width: 85%;
+            text-align: left;
+            margin-bottom: 40px;
+            font-size: 14px;
+            line-height: 17px;
+          }
+        }
+        .details_cards {
+          display: block;
+          .details_cards_big {
+            padding: 20px 20px 30px 20px;
+            font-size: 14px;
+            line-height: 17px;
+            margin: 0;
+            border-radius: 20px 80px 20px 20px;
+            width: 100%;
+            .big_card_pic {
+              width: 50px;
+              height: 50px;
+              padding: 0;
+              margin-bottom: 20px;
+              img {
+                width: 100%;
+                height: 100%;
+              }
+            }
+            .big_card_name {
+              font-size: 14px;
+              line-height: 17px;
+              padding-bottom: 20px;
+            }
+            .big_card_desc {
+              font-size: 12px;
+              line-height: 15px;
+              padding-bottom: 25px;
+            }
+            .big_card_link {
+              font-size: 12px;
+              line-height: 15px;
+              img {
+                height: 20px;
+                width: 20px;
+              }
+            }
+          }
+          .details_cards_small {
+            display: block;
+            .details_cards_small_card {
+              width: 188px;
+              margin-top: 30px;
+              padding: 20px;
+              border-radius: 20px;
+              .small_card_pic {
+                width: 50px;
+                height: 50px;
+                img {
+                  width: 100%;
+                  height: 100%;
+                }
+              }
+              .small_card_desc {
+                padding-top: 20px;
+                padding-bottom: 20px;
+
+                font-size: 14px;
+                line-height: 17px;
+              }
+              .small_card_link {
+                font-size: 14px;
+                line-height: 17px;
+                img {
+                  width: 20px;
+                  height: 20px;
+                }
+              }
+              #second_link {
+                padding-top: 20px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .letsee {
+    .form_article {
+      padding: 35px 35px 40px 35px;
+      .form_article_elements {
+        display: block;
+        position: static;
+        .form_article_up {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          text-align: center;
+          padding-bottom: 0;
+          font-size: 24px;
+          line-height: 29px;
+        }
+        .form_article_mid {
+          padding-top: 40px;
+          padding-left: 0;
+          position: relative;
+          display: flex;
+          justify-content: center;
+          .form_picture_back {
+            width: 289px;
+            height: 418px;
+            .injection {
+              width: 289px;
+              height: 418px;
+              top: 0;
+              left: 0;
+              img {
+                width: 100%;
+                height: 100%;
+              }
+            }
+            .form_picture_front_word {
+              top: 30px;
+              left: 90px;
+              p {
+                font-size: 14px;
+                margin: 0;
+              }
+            }
+            .form_picture_front {
+              width: 289px;
+              height: 365px;
+              left: 0;
+              top: 53px;
+              img {
+                width: 100%;
+                height: 100%;
+              }
+            }
+            .form_picture_front_view {
+              width: 200px;
+              height: 50px;
+              left: 37px;
+              top: 318px;
+              img {
+                width: 100%;
+                height: 100%;
+              }
+            }
+            .form_picture_front_virus {
+              width: 74px;
+              height: 72px;
+              left: -15px;
+              top: -20px;
+              img {
+                width: 100%;
+                height: 100%;
+              }
+            }
+          }
+        }
+        .form_article_down {
+          width: 100%;
+          margin-top: 40px;
+          label {
+            font-size: 14px;
+            line-height: 17px;
+          }
+          input {
+            padding: 15px 0 15px 20px;
+            margin-bottom: 20px;
+          }
+          input::placeholder {
+            font-size: 14px;
+            line-height: 17px;
+          }
+          p {
+            font-size: 14px;
+            line-height: 17px;
+          }
+          button {
+            font-size: 20px;
+          }
+          .phone_field {
+            display: block;
+            margin-bottom: 60px;
+            button {
+              margin-top: 20px;
+              padding: 17px 55px;
+              font-size: 14px;
+              line-height: 17px;
+            }
+            .phone_input {
+              img {
+                top: 10px;
+                left: 20px;
+              }
+              #phone {
+                padding-left: 120px;
+                width: 100%;
+              }
+            }
+          }
+          button {
+            padding: 17px 125px;
+            font-size: 14px;
+            line-height: 17px;
+          }
+          .form_foot {
+            gap: 20px;
+            p {
+              font-size: 14px;
+              line-height: 17px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .symptoms_container {
+    .symptoms_upper_text {
+      padding: 25px 57px 10px 57px;
+      p {
+        margin-bottom: 10px;
+        font-size: 12px;
+        line-height: 15px;
+      }
+      .symptoms_span {
+        font-size: 24px;
+        line-height: 30px;
+      }
+    }
+    .symptoms_lower_text {
+      padding: 0px 40px 30px 40px;
+      font-size: 12px;
+      line-height: 15px;
+    }
+    .symptoms_man_img {
+      width: 100%;
+      height: 167px;
+      display: flex;
+      justify-content: center;
+      .symptoms_virus_images {
+        padding-top: 30px;
+        .symptoms_box {
+          position: relative;
+          padding: 5px 5px 5px 17px;
+          font-size: 9px;
+          line-height: 11px;
+          border-radius: 5px;
+          img {
+            position: absolute;
+            top: -4px;
+            left: -16px;
+            width: 32px;
+            height: 32px;
+          }
+        }
+        .upper_symptoms_virus_images {
+          margin: 0 20px 0 60px;
+          padding-bottom: 20px;
+        }
+        .mid_symptoms_virus_images {
+          margin: 0 15px 0 40px;
+          padding-bottom: 20px;
+        }
+        .lower_symptoms_virus_images {
+          margin: 0 30px 0 20px;
+        }
+      }
+    }
+  }
+
+  .testimonials {
+    padding-bottom: 130px;
+    .testimonials_upper {
+      padding: 30px 30px 10px 30px;
+      margin-bottom: 0;
+      #feedback {
+        font-size: 14px;
+        line-height: 17px;
+      }
+      #patients_think {
+        font-size: 24px;
+        line-height: 29px;
+      }
+    }
+    .testimonials_desc {
+      padding: 0 65px 15px 65px;
+      font-size: 12px;
+      line-height: 15px;
+    }
+    .back_image {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      top: 180px;
+      left: 125px;
+      img {
+        width: 124px;
+        height: 200px;
+      }
+    }
+    .testimonial_cards {
+      display: flex;
+      flex-direction: column;
+      margin: 0 35px 0 35px;
+      padding: 0;
+      .patient_pic {
+        width: 53px;
+        height: 53px;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .patient_name {
+        font-size: 14px;
+        line-height: 16px;
+      }
+      .patient_add {
+        font-size: 10px;
+        line-height: 12px;
+      }
+      .patient_comment {
+        font-size: 12px;
+        line-height: 15px;
+      }
+
+      .individual_testimonial_card {
+        padding: 25px 25px 30px 25px;
+        .patient_info {
+          margin-bottom: 30px;
+        }
+      }
+    }
+  }
+
+  .footer {
+    .upperdiv {
+      padding: 16px 34px 30px 34px;
+      top: -75px;
+      left: 54px;
+      right: 54px;
+      border-radius: 10px;
+      .upper_top_quote {
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 5px;
+      }
+      .upper_top_desc {
+        font-size: 10px;
+        line-height: 12px;
+        margin-bottom: 24px;
+      }
+      .upper_bottom {
+        input {
+          padding: 12px 0px 12px 12px;
+        }
+        input::placeholder {
+          font-size: 10px;
+          line-height: 12px;
+        }
+        .footer_send {
+          padding: 10px 23px 10px 10px;
+          img {
+            width: 23px;
+            height: 20px;
+          }
+        }
+      }
+    }
+
+    .lowerdiv {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      align-items: flex-start;
+      padding: 133px 0px 30px 35px;
+      img {
+        width: 140px;
+      }
+      .footer_nav_bar {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        font-size: 14px;
+        line-height: 17px;
+        .home_nav_bar {
+          font-size: 14px;
+          line-height: 17px;
+        }
+      }
+      .footer_logo {
+        display: flex;
+        align-items: center;
+        img {
+          width: 80px;
+          height: 18px;
+        }
+      }
+    }
+  }
+}
